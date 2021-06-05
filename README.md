@@ -3,4 +3,4 @@
  
  # 1st Iteration
  Basic single timer functionality
-![image](https://user-images.githubusercontent.com/56516912/120905267-07147880-c61f-11eb-9e8a-2b9a1ff7956b.png)
+![image](https://user-images.githubusercontent.com/56516912/120905386-b0f40500-c61f-11eb-8674-12532b7ff310.png)
