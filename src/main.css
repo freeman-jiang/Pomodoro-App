@@ -16,7 +16,7 @@
 .timer-container {
   font-family: sans-serif;
   display: grid;
-  height: 80vh;
+  height: 60vh;
   place-items: center;
 }
 
