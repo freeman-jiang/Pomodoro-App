@@ -9,16 +9,22 @@
     box-shadow: none;
     border: none;
     color: rgb(85, 85, 85);
-    width: 10%;
+    width: 8em;
     box-sizing: border-box;
 }
 
 .timer-container {
   font-family: sans-serif;
   display: grid;
-  height: 60vh;
   place-items: center;
+  margin-top:1em
 }
+
+
+  .timer-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 .base-timer {
   position: relative;
@@ -77,4 +83,22 @@
   font-size: smaller;
   color: #cc3300;
 }
+
+.button {
+  width: 4em;
+}
+
+.inputBoxL{
+  display:inline-block;
+  vertical-align:top;
+  
+}
+
+.inputBoxR{
+  display:inline-block;
+  vertical-align:top;
+  
+  
+}
+
 

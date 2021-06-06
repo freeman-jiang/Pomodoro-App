@@ -18,36 +18,55 @@
     
     <div class="container-fluid">
       <div class="row">
-        <div class="col">
+
           <h1 class="m-3 text-center">Pomodoro Technique Timer</h1>
-        </div>
       </div>
-      <div class="row mt-3">
-        <div class="col">
-          <span>Pomodoro Time (minutes):</span>
-          <input type="number" min="1" step="1" class="input m-1" value="25" id="timeLimit">
+        
+          <div class="text-center">
+            <div class="text-center inputBoxL m-2">
+              <div>
+                <span>Work Time (min):</span>
+              </div>
+              <input type="number" min="1" max="1000000" step="1" class="input m-1" value="25" id="timeLimit">
+            </div>
+          
+          
+            <div class="text-center inputBoxR m-2">
+              <div>
+                <span>Break Time (min):</span>
+              </div>
+              <input type="number" min="1" max="1000000" step="1" class="input m-1" value="5" id="breakLimit">
+            </div>
         </div>
-      </div>
+        
+        
+        <div class="row mb-1 text-center">
+          <div class="col">
+            <span id="unsavedWarning" class="warning">*You have unsaved changes</span>
+          </div>
+        </div>
+       
+        <div class="row text-center">
+          <div class="col">
+            <button type="button" class="button btn btn-primary" onclick="saveInfo()" id="saveButton">Save</button>
+            <button type="button" class="button btn btn-danger" onclick="resetTimer()">Reset</button>
+            <button type="button" class="button btn btn-success" onclick="startTimer()" id="startButton">Start</button>
+            <button type="button" class="button btn btn-secondary" onclick="startBreakTimer()" id="breakButton">Break</button>
+          </div>
+        </div>
+       
+        
+    
+    <div class="row">
       
-      <div class="row mt-1 mb-1">
-        <div class="col">
-          <span id="unsavedWarning" class="warning">*You have unsaved changes</span>
-        </div>
-      </div>
-      
-      <div class="row">
-        <div class="col">
-          <button type="button" class="btn btn-primary" onclick="saveInfo()" id="saveButton">Save</button>
-          <button type="button" class="btn btn-success" onclick="startTimer()">Start</button>
-          <button type="button" class="btn btn-danger" onclick="resetTimer()">Reset</button>
-        </div>
-      </div>
-      <div class="row>">
-        <div class="col timer-container">
+        <div class="timer-container">
+          
           <h2 id="timer"></h2>
+        
         </div>
-      </div>
     </div>
+    
+  </div>
       <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
       <script src="main.js"></script>
       
