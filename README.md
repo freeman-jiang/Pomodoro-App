@@ -1,5 +1,5 @@
 # Pomodoro-App
- Timer application for the Pomodoro Time Management Technique 
+ Vanilla JS timer application for the Pomodoro Time Management Technique 
  
  # 1st Iteration
  Basic single timer functionality
