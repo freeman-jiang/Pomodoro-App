@@ -1,7 +1,10 @@
 # Pomodoro-App
- Vanilla JS timer application for the Pomodoro Time Management Technique 
- (trying to be more productive)
+
+## About
+ Vanilla JS timer application for the Pomodoro Time Management Technique (trying to be more productive)
  
+ **Technologies**: Bootstrap 4, HTML, CSS, JS
+
  # 1st Iteration
  Basic single timer functionality
 ![image](https://user-images.githubusercontent.com/56516912/120905848-f1a14d80-c622-11eb-8ca3-1f44957713fa.png)
